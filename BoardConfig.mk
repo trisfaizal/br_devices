@@ -64,6 +64,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
+AB_OTA_UPDATER := false
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
