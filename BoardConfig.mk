@@ -1,7 +1,7 @@
 #
 # Copyright (C) 2017 The Android Open Source Project
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
+# Licensed under the Apache License, Version 2.0 (the "License");D
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
@@ -62,6 +62,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
+AB_OTA_UPDATER := false
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
