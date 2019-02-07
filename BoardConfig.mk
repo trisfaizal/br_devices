@@ -85,3 +85,6 @@ TW_INCLUDE_FUSE_NTFS := true
 
 # Official
 BR_OFFICIAL := true
+
+# Recovery
+AB_OTA_UPDATER := false
